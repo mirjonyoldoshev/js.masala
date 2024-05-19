@@ -1,0 +1,90 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  background-image: url(https://i.siteapi.org/RhglrYl4sv93uw7lshO45mWelvI=/fit-in/1400x1000/center/top/s.siteapi.org/596efcf47164ff2.ru/img/1jm82cht4928ksk0woc4k0swog8wgg);
+}
+
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+
+.add-student-section {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  justify-content:center ;
+  width: 300px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  display: block;
+  width: 320px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+
+.student-list-section {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.student {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.student:last-child {
+  border-bottom: none;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
